@@ -1,0 +1,23 @@
+JETPACK JUNG LAN - V7 STATUS
+
+Target: Android phones only, up to 10 players (1 host + 9 clients)
+Transport: local WebSocket over shared Wi-Fi / mobile hotspot, TCP port 28765
+Internet: not required after installation
+
+Included:
+- Host room / join room using IPv4 + room code
+- Player state replication
+- Bullet, grenade, melee and pickup action relay
+- Host match-state snapshots
+- Host-authoritative match-end notification
+- Packet size/rate limits and disconnect cleanup
+- Original game assets retained
+- GitHub Actions cloud APK build workflow
+
+Not yet verified:
+- Android APK compilation
+- Actual LAN connectivity on different Android hotspot models
+- Ten-device performance and combat consistency
+- Production/anti-cheat authority
+
+Do not describe this source ZIP as a tested final APK. Build the APK with Android Studio or the included GitHub Actions workflow, then test it on physical phones.
