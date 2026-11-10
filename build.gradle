@@ -1,3 +1,17 @@
-plugins {
-    id 'com.android.application' version '8.7.3' apply false
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.jetpackjung.lan'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.jetpackjung.lan'
+        minSdk 23
+        targetSdk 28
+        versionCode 7
+        versionName '1.0-lan-v7'
+    }
+}
+
+dependencies {
+    implementation 'org.java-websocket:Java-WebSocket:1.5.7'
 }
